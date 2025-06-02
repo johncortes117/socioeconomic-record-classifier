@@ -31,9 +31,7 @@
   - [⚙️ Instalación](#️-instalación)
 - [🏃 Ejecutando el Proyecto](#-ejecutando-el-proyecto)
 - [🌐 Despliegue](#-despliegue)
-- [🤝 Contribuyendo](#-contribuyendo)
 - [📄 Licencia](#-licencia)
-- [🙏 Agradecimientos](#-agradecimientos)
 - [🧑‍💻 Equipo de Desarrollo](#-equipo-de-desarrollo)
 
 ---
@@ -88,8 +86,8 @@ Asegúrate de tener instalado lo siguiente:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPONAME.git
-    cd YOUR_REPONAME
+    git clone https://github.com/johncortes117/socioeconomic-record-classifier.git
+    cd socioeconomic-record-classifier
     ```
     *(Reemplaza `YOUR_USERNAME/YOUR_REPONAME` con la URL de tu repositorio)*
 
@@ -126,61 +124,15 @@ pnpm start
 
 ## 🌐 Despliegue
 
-Este proyecto está configurado para un despliegue continuo en [Vercel](https://vercel.com/). Cualquier push a la rama principal (`main` o `master`) disparará un nuevo despliegue automáticamente.
+Este proyecto está configurado para un despliegue continuo en [Vercel](https://vercel.com/). Cualquier push a la rama principal (`main`) disparará un nuevo despliegue automáticamente.
 
-El sitio de documentación está disponible en: *(Añade aquí el enlace a tu sitio desplegado en Vercel)*
-
----
-
-## 🤝 Contribuyendo
-
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
-
-1.  Haz un Fork del proyecto.
-2.  Crea tu Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Haz Commit de tus cambios (`git commit -m 'Add some AmazingFeature'`).
-4.  Haz Push a la Branch (`git push origin feature/AmazingFeature`).
-5.  Abre un Pull Request.
-
-Por favor, asegúrate de que tu código siga las guías de estilo del proyecto y que todos los tests pasen.
+El sitio de documentación está disponible en: [website](https://recordclassifier.johncp.dev/)
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles (puedes crear un archivo `LICENSE` si aún no existe).
-
-```
-MIT License
-
-Copyright (c) 2025 [Tu Nombre/Nombre de la Organización]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 🙏 Agradecimientos
-
-- A la **Universidad Politécnica Estatal del Carchi (UPEC)** por brindar el espacio y los recursos para el desarrollo de este proyecto.
-- A los docentes y tutores por su guía y apoyo.
-- A la comunidad de código abierto por las herramientas y bibliotecas utilizadas.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
@@ -188,10 +140,9 @@ SOFTWARE.
 
 Este proyecto es desarrollado por estudiantes de 7mo Semestre de la carrera de Computación en la UPEC:
 
-- **[Nombre del Estudiante 1]** - `[@githubuser1](https://github.com/githubuser1)`
-- **[Nombre del Estudiante 2]** - `[@githubuser2](https://github.com/githubuser2)`
-- **[Nombre del Estudiante 3]** - `[@githubuser3](https://github.com/githubuser3)`
-- *(Añade más miembros del equipo según sea necesario)*
+- **John Cortés** - [@johncortes117](https://github.com/johncortes117)
+- **Joel Cabrera** - [@andresjoelcr](https://github.com/andresjoelcr)
+- **Diego Chávez** - [@DiegoXD1033](https://github.com/DiegoXD1033)
 
 ---
 
