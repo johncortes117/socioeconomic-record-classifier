@@ -13,6 +13,7 @@ import {
   ChevronRight,
   ChevronDown,
   ChevronLeft,
+  Home as HomeIcon, // Renamed Home to HomeIcon to avoid conflict
 } from "lucide-react"
 
 // Define team members with avatar initials and background gradients
@@ -43,7 +44,7 @@ const navigationItems = [
     id: "introduction",
     title: "Introducción",
     subtitle: "Contexto del Proyecto",
-    icon: Home,
+    icon: HomeIcon, // Updated to use HomeIcon
     content: (
       <div>
         <h2 id="introduction-title">Introducción</h2>
@@ -192,7 +193,7 @@ export default function Home() {
                     </>
                   ) : (
                     <>
-                      <Home className="w-3 h-3 sm:w-5 sm:h-5" />
+                      <HomeIcon className="w-3 h-3 sm:w-5 sm:h-5" /> {/* Updated to use HomeIcon */}
                       <span className="hidden sm:inline">Volver al Inicio</span>
                       <span className="sm:hidden">Inicio</span>
                     </>
@@ -318,7 +319,7 @@ export default function Home() {
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg flex items-center justify-center mb-4 sm:mb-6">
                     <Target className="w-6 h-6 sm:w-8 sm:h-8 text-black" />
                   </div>
-                  <h3 className="text-lg sm:text-2xl font-semibold text-white mb-2 sm:mb-4">
+                  <h3 className="text-lg sm:text-2xl font-semibold text-white mb-2 sm:mb-4>
                     Automatización Inteligente
                   </h3>
                   <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
@@ -394,7 +395,7 @@ export default function Home() {
                   onClick={() => setCurrentView("home")}
                   className="inline-flex items-center space-x-1 sm:space-x-2 bg-gray-800 hover:bg-gray-700 text-white font-semibold px-3 py-2 sm:px-6 sm:py-3 rounded-lg transition-all duration-300 hover:scale-105 border border-gray-700 hover:border-gray-600 text-xs sm:text-base"
                 >
-                  <Home className="w-3 h-3 sm:w-5 sm:h-5" />
+                  <HomeIcon className="w-3 h-3 sm:w-5 sm:h-5" /> {/* Updated to use HomeIcon */}
                   <span className="hidden sm:inline">Volver al Inicio</span>
                   <span className="sm:hidden">Inicio</span>
                 </button>
