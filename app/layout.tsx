@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Record classifier',
-  description: 'Automatización del Análisis y Clasificación de Fichas Socioeconómicas para una Segmentación Eficiente de Estudiantes en la UPEC mediante un LLM',
-  generator: '...',
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
