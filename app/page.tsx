@@ -18,19 +18,19 @@ import {
 // Define team members with avatar initials and background gradients
 const teamMembers = [
   {
-    avatar: "AB",
+    avatar: "JC",
     name: "John Cortés",
     role: "AI Engineer",
     gradient: "from-green-400 to-blue-500",
   },
   {
-    avatar: "DG",
+    avatar: "JC",
     name: "Joel Cabrera",
     role: "Fullstack Developer",
     gradient: "from-purple-400 to-pink-500",
   },
   {
-    avatar: "YV",
+    avatar: "DC",
     name: "Diego Chávez",
     role: "Software Developer",
     gradient: "from-orange-400 to-yellow-500",
