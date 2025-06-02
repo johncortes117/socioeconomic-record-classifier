@@ -19,20 +19,20 @@ import {
 const teamMembers = [
   {
     avatar: "AB",
-    name: "Anthony Bravo",
-    role: "Developer",
+    name: "John Cortés",
+    role: "AI Engineer",
     gradient: "from-green-400 to-blue-500",
   },
   {
     avatar: "DG",
-    name: "David Granda",
-    role: "Developer",
+    name: "Joel Cabrera",
+    role: "Fullstack Developer",
     gradient: "from-purple-400 to-pink-500",
   },
   {
     avatar: "YV",
-    name: "Yandry Vaca",
-    role: "Developer",
+    name: "Diego Chávez",
+    role: "Software Developer",
     gradient: "from-orange-400 to-yellow-500",
   },
 ]
